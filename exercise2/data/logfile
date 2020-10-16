@@ -1,0 +1,28 @@
+2020-10-12 10:09:50.589 JST [26729] LOG:  starting PostgreSQL 12.4 on x86_64-apple-darwin19.5.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.62), 64-bit
+2020-10-12 10:09:50.590 JST [26729] LOG:  listening on IPv6 address "::1", port 5432
+2020-10-12 10:09:50.590 JST [26729] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-10-12 10:09:50.591 JST [26729] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-10-12 10:09:50.611 JST [26731] LOG:  database system was shut down at 2020-10-12 10:08:35 JST
+2020-10-12 10:09:50.616 JST [26729] LOG:  database system is ready to accept connections
+2020-10-12 10:09:50.621 JST [26736] LOG:  archive command failed with exit code 1
+2020-10-12 10:09:50.621 JST [26736] DETAIL:  The failed archive command was: test ! -f /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006 && cp pg_wal/000000010000000000000006 /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006
+2020-10-12 10:09:51.627 JST [26736] LOG:  archive command failed with exit code 1
+2020-10-12 10:09:51.627 JST [26736] DETAIL:  The failed archive command was: test ! -f /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006 && cp pg_wal/000000010000000000000006 /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006
+2020-10-12 10:09:52.633 JST [26736] LOG:  archive command failed with exit code 1
+2020-10-12 10:09:52.633 JST [26736] DETAIL:  The failed archive command was: test ! -f /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006 && cp pg_wal/000000010000000000000006 /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006
+2020-10-12 10:09:52.633 JST [26736] WARNING:  archiving write-ahead log file "000000010000000000000006" failed too many times, will try again later
+2020-10-12 10:10:24.684 JST [26729] LOG:  archiver process (PID 26736) was terminated by signal 9: Killed: 9
+2020-10-12 10:10:24.689 JST [26818] LOG:  archive command failed with exit code 1
+2020-10-12 10:10:24.689 JST [26818] DETAIL:  The failed archive command was: test ! -f /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006 && cp pg_wal/000000010000000000000006 /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006
+2020-10-12 10:10:25.694 JST [26818] LOG:  archive command failed with exit code 1
+2020-10-12 10:10:25.694 JST [26818] DETAIL:  The failed archive command was: test ! -f /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006 && cp pg_wal/000000010000000000000006 /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006
+2020-10-12 10:10:26.700 JST [26818] LOG:  archive command failed with exit code 1
+2020-10-12 10:10:26.700 JST [26818] DETAIL:  The failed archive command was: test ! -f /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006 && cp pg_wal/000000010000000000000006 /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006
+2020-10-12 10:10:26.700 JST [26818] WARNING:  archiving write-ahead log file "000000010000000000000006" failed too many times, will try again later
+2020-10-12 10:11:26.704 JST [26818] LOG:  archive command failed with exit code 1
+2020-10-12 10:11:26.704 JST [26818] DETAIL:  The failed archive command was: test ! -f /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006 && cp pg_wal/000000010000000000000006 /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006
+2020-10-12 10:11:27.708 JST [26818] LOG:  archive command failed with exit code 1
+2020-10-12 10:11:27.708 JST [26818] DETAIL:  The failed archive command was: test ! -f /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006 && cp pg_wal/000000010000000000000006 /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006
+2020-10-12 10:11:28.713 JST [26818] LOG:  archive command failed with exit code 1
+2020-10-12 10:11:28.713 JST [26818] DETAIL:  The failed archive command was: test ! -f /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006 && cp pg_wal/000000010000000000000006 /Users/zoeli/working/2020-exercise/exercise2/wal_backup/000000010000000000000006
+2020-10-12 10:11:28.713 JST [26818] WARNING:  archiving write-ahead log file "000000010000000000000006" failed too many times, will try again later
